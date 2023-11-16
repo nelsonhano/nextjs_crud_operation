@@ -22,7 +22,7 @@ export default function Home() {
       </div>
       <div className="container mx-auto">
         <Form />
-        <Table />
+        {/* <Table /> */}
       </div>
     </main>
   )

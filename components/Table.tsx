@@ -3,7 +3,7 @@ import { BiEdit, BiTrash } from "react-icons/bi";
 
 export default function Table() {
   return (
-    <table className="table-auto w-full hidden">
+    <table className="table-auto w-full">
         <thead className="py-4 bg-slate-900">
             <tr className="py-2 px-4">
                 <th className="text-gray-200">Name</th>
@@ -17,12 +17,12 @@ export default function Table() {
         <tbody className="bg-gray-200">
           <tr>
             <td className="px-16 py-2 flex flex-row items-center">
-              <Image
+              {/* <Image
                 src="/"
                 alt="tabel_data"
                 width={25}
                 height={25}
-              />
+              /> */}
               <span className="text-center">koinyan</span>
             </td>
             <td className="px-16 py-2">
