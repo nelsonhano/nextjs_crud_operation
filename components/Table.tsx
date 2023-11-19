@@ -16,12 +16,12 @@ export default function Table() {
         </thead>
         <tbody className="bg-gray-200">
           <tr>
-            <td className="px-16 py-2 flex flex-row items-center">
+            <td className="px-16 py-2 flex flex-row items-center gap-1 ">
               {/* <Image
-                src="/"
+                src="vercel.svg"
                 alt="tabel_data"
-                width={25}
-                height={25}
+                width={35}
+                height={35}
               /> */}
               <span className="text-center">koinyan</span>
             </td>
