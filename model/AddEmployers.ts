@@ -23,7 +23,8 @@ const employerSchema = new Schema({
         required: [true, "Check field is requied"],
      },
     date: { type: String, required: true },
-})
+},{timestamps: true})
 
-export const Employer = mongoose.model("Employer", employerSchema);
+const Employer = mongoose.models.Employer || mongoose.model("Employer", employerSchema);
+
 export default Employer;
